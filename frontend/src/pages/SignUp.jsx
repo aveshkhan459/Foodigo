@@ -64,7 +64,7 @@ function SignUp() {
             <div className={`bg-white rounded-xl shadow-lg w-full max-w-md p-8 border-[1px] `} style={{
                 border: `1px solid ${borderColor}`
             }}>
-                <h1 className={`text-3xl font-bold mb-2 `} style={{ color: primaryColor }}>Vingo</h1>
+                <h1 className={`text-3xl font-bold mb-2 `} style={{ color: primaryColor }}>Foodigo</h1>
                 <p className='text-gray-600 mb-8'> Create your account to get started with delicious food deliveries
                 </p>
 
@@ -86,7 +86,7 @@ function SignUp() {
                     <label htmlFor="mobile" className='block text-gray-700 font-medium mb-1'>Mobile</label>
                     <input type="email" className='w-full border rounded-lg px-3 py-2 focus:outline-none ' placeholder='Enter your Mobile Number' style={{ border: `1px solid ${borderColor}` }} onChange={(e)=>setMobile(e.target.value)} value={mobile} required/>
                 </div>
-                {/* password*/}
+                {/* password*/} 
 
                 <div className='mb-4'>
                     <label htmlFor="password" className='block text-gray-700 font-medium mb-1'>Password</label>
