@@ -25,7 +25,10 @@ import { useEffect } from 'react'
 import { io } from 'socket.io-client'
 import { setSocket } from './redux/userSlice'
 
-export const serverUrl=import.meta.env.VITE_API_URL
+export const serverUrl = import.meta.env.VITE_API_URL;
+
+console.log("SERVER URL:", serverUrl);
+alert(serverUrl);
 function App() {
     const {userData}=useSelector(state=>state.user)
     const dispatch=useDispatch()
