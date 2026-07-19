@@ -7,12 +7,13 @@ import { getAuth } from "firebase/auth";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey:import.meta.env.VITE_FIREBASE_APIKEY,
-  authDomain: "interviewierbit.firebaseapp.com",
-  projectId: "interviewierbit",
-  storageBucket: "interviewierbit.firebasestorage.app",
-  messagingSenderId: "1082863649608",
-  appId: "1:1082863649608:web:fbb3f37ef84768a123a97d",
+ authDomain: "foodigo-2db62.firebaseapp.com",
+  projectId: "foodigo-2db62",
+  storageBucket: "foodigo-2db62.firebasestorage.app",
+  messagingSenderId: "52459096190",
+  appId: "1:52459096190:web:e987a32559c050ff77302f"
 };
+
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
